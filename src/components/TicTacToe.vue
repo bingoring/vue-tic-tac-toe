@@ -1,5 +1,5 @@
 <template>
-  <table-component></table-component>
+  <table-component v-bind:table-data="tableData"></table-component>
 </template>
 
 <script>
@@ -10,12 +10,25 @@ export default {
   },
   data() {
     return {
-
+      tableData: [
+        ['','',''],
+        ['','',''],
+        ['','','']
+      ],
+      turn : 'O',
     };
   },
 }
 </script>
 
 <style lang="">
-  
+table{
+  border-collapse: collapse;
+}
+td { 
+  border: 1px solid black;
+  width: 40p;
+  height: 40px;
+  text-align: center;
+}
 </style>
