@@ -1,5 +1,5 @@
 <template>
-  <table-component v-bind:table-data="tableData"></table-component>
+  <table-component :table-data="tableData"></table-component>
 </template>
 
 <script>
@@ -26,9 +26,12 @@ table{
   border-collapse: collapse;
 }
 td { 
-  border: 1px solid black;
-  width: 40p;
-  height: 40px;
+  border: 3px solid black;
+  width: 200px;
+  height: 200px;
   text-align: center;
+}
+td:hover {
+  background: #551155;
 }
 </style>

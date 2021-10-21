@@ -14,6 +14,7 @@ export default {
     methods: {
         onClickTd() {
             console.log(this.$root.$data);
+            console.log(this.$parent.$data);
         }
     }
 };

@@ -5,17 +5,17 @@
 </template>
 
 <script>
-import TrComponents from './TrComponents';
+import TrComponent from './TrComponent';
 export default {
     props: {
         tableData: Array,
     },
     components: {
-        TrComponents,
+        TrComponent,
     },
 }
 </script>
 
 <style lang="">
-  
+    
 </style>
