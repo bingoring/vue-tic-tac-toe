@@ -1,6 +1,6 @@
 # y
 
-> y
+> 계층형 구조 -> EventBus -> vuex 적용
 
 ## Build Setup
 
